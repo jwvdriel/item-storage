@@ -1,0 +1,11 @@
+body {
+  width: 900px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#textInput,
+.itemElement {
+  text-transform: capitalize;
+}

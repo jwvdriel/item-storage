@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voorrraad beheer</title>
+
+    <!-- personal stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- scripts -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>voorrraad beheer</h1>
+    </header>
+
+    <main>
+      <section>
+        <div class="invoer-veld">
+          <input
+            id="textInput"
+            type="text"
+            placeholder="voeg hier je artikel in alleen"
+          />
+        </div>
+      </section>
+
+      <section>
+        <div class="button-veld">
+          <button type="button" id="voegToe">Add</button>
+        </div>
+      </section>
+
+      <section>
+        <div id="artikel-veld">
+          <div class="totaal-artikelen"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
